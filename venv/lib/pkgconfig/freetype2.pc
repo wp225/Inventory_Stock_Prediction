@@ -1,0 +1,14 @@
+prefix=/Users/anshujoshi/PycharmProjects/Inventory_Stock_Prediction/venv
+exec_prefix=/Users/anshujoshi/PycharmProjects/Inventory_Stock_Prediction/venv
+libdir=/Users/anshujoshi/PycharmProjects/Inventory_Stock_Prediction/venv/lib
+includedir=/Users/anshujoshi/PycharmProjects/Inventory_Stock_Prediction/venv/include
+
+Name: FreeType 2
+URL: https://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 24.3.18
+Requires: 
+Requires.private: 
+Libs: -L/Users/anshujoshi/PycharmProjects/Inventory_Stock_Prediction/venv/lib -lfreetype
+Libs.private: -lz -L/Users/anshujoshi/PycharmProjects/Inventory_Stock_Prediction/venv/lib -lpng16 -lz
+Cflags: -I${includedir}/freetype2
